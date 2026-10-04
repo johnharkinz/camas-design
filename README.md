@@ -13,4 +13,4 @@ eventually a runnable reference site used to design:
 It is not currently a shared production component library.
 
 See [docs/project-brief.md](docs/project-brief.md) for the current brief and
-[docs/decisions.md](docs/decisions.md) for agreed design decisions.
+[docs/decisions/](docs/decisions/) for agreed design decisions.
