@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="design_doc_mode" content="canvas">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>body{margin:0;background:#DEDAD0;-webkit-font-smoothing:antialiased}a{color:#5A3E96;text-underline-offset:3px}a:hover{color:#1E2620}*{box-sizing:border-box}</style>
+</helmet>
+<div style="padding:72px;display:flex;flex-direction:column;gap:72px;font-family:'Hanken Grotesk',sans-serif;color:#1E2620">
+
+<div style="max-width:1280px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,460px),1fr));gap:56px;align-items:start">
+  <div style="display:flex;flex-direction:column;gap:16px">
+    <div style="font-size:13px;letter-spacing:.14em;font-weight:600;text-transform:uppercase">Direction B — not-software</div>
+    <div style="font-family:Newsreader,serif;font-size:72px;line-height:.95;font-style:italic">Field Guide</div>
+    <div style="font-family:Newsreader,serif;font-size:22px;line-height:1.4;text-wrap:pretty">Camas is a wildflower. The tools are specimens, described with a naturalist’s patience: what it is, where you find it, what to look out for.</div>
+  </div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:24px 40px;font-size:15px;line-height:1.55;border-top:1px solid #1E2620;padding-top:20px">
+    <div><b>Why it fits</b><br>“Made by someone who cares how the web works” — observation, explanation, labelling. It treats the web as a living thing worth studying.</div>
+    <div><b>Distinctive</b><br>Serif voice, specimen plates, herbarium tags, sentence-style results. Nothing about it says SaaS.</div>
+    <div><b>Works well</b><br>Marketing and Shareable — diagnostics written as plain-English annotations make technical findings approachable.</div>
+    <div><b>May struggle</b><br>Popups: serif at 12px is fragile, so the tool UI leans on the sans. Needs real botanical illustration to land; without it, can feel twee.</div>
+    <div style="grid-column:1 / -1"><b>Scaling</b><br>Good, with a deliberate shift: serif carries brand and headings; the grotesk carries controls. The tag shape and violet keep the family visible in the extension.</div>
+  </div>
+</div>
+
+<div style="display:flex;gap:56px;align-items:flex-start;flex-wrap:wrap">
+  <div style="display:flex;flex-direction:column;gap:12px">
+    <div style="font-size:12px;color:#4E5650;letter-spacing:.06em">B.1 Identity &amp; language</div>
+    <div style="width:820px;background:#F3EEE2;padding:48px;display:flex;flex-direction:column;gap:36px">
+      <div style="display:flex;gap:40px;align-items:center;border-bottom:1px solid #1E2620;padding-bottom:32px">
+        <div style="width:150px;height:190px;background:repeating-linear-gradient(135deg,#E6DFCF 0 6px,#EDE7DA 6px 12px);display:grid;place-items:center;text-align:center;font-family:monospace;font-size:11px;color:#6A6A5E;padding:12px">engraved camas flower<br>(commissioned)</div>
+        <div style="display:flex;flex-direction:column;gap:8px">
+          <div style="font-family:Newsreader,serif;font-size:120px;line-height:.85;font-style:italic;letter-spacing:-.02em">Camas</div>
+          <div style="font-family:Newsreader,serif;font-size:17px;color:#4E5650"><i>Camassia</i> — small, useful, and often overlooked.</div>
+        </div>
+      </div>
+      <div style="display:flex;gap:16px;flex-wrap:wrap">
+        <div style="display:flex;align-items:center;gap:10px;background:#FBF8F1;border:1px solid #1E2620;border-radius:4px 22px 22px 4px;padding:8px 18px 8px 12px"><span style="width:8px;height:8px;border-radius:50%;border:1.5px solid #1E2620"></span><span style="font-family:Newsreader,serif;font-size:20px;font-style:italic">Shareable</span><span style="font-size:11px;letter-spacing:.12em;color:#4E5650">PLATE I</span></div>
+        <div style="display:flex;align-items:center;gap:10px;background:#FBF8F1;border:1px solid #1E2620;border-radius:4px 22px 22px 4px;padding:8px 18px 8px 12px"><span style="width:8px;height:8px;border-radius:50%;border:1.5px solid #1E2620"></span><span style="font-family:Newsreader,serif;font-size:20px;font-style:italic">Noggin</span><span style="font-size:11px;letter-spacing:.12em;color:#4E5650">PLATE II</span></div>
+        <div style="display:flex;align-items:center;gap:10px;background:#FBF8F1;border:1px solid #1E2620;border-radius:4px 22px 22px 4px;padding:8px 18px 8px 12px"><span style="width:8px;height:8px;border-radius:50%;border:1.5px solid #1E2620"></span><span style="font-family:Newsreader,serif;font-size:20px;font-style:italic">Bonce</span><span style="font-size:11px;letter-spacing:.12em;color:#4E5650">PLATE III</span></div>
+      </div>
+      <div style="font-family:Newsreader,serif;font-size:18px;line-height:1.5;color:#323A34;max-width:640px">Italic serif wordmark, paired with a real engraving rather than a symbol. Products wear the herbarium tag — a label with a punched hole — which becomes the badge, chip and tab shape across the system.</div>
+      <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px">
+        <div style="display:flex;flex-direction:column;gap:10px">
+          <div style="font-size:11px;letter-spacing:.14em;font-weight:600">TYPE</div>
+          <div style="display:flex;align-items:baseline;gap:10px"><span style="font-family:Newsreader,serif;font-size:42px;font-style:italic">Aa</span><span style="font-size:30px;font-weight:600">Aa</span></div>
+          <div style="font-size:14px;line-height:1.5">Newsreader for voice, headings and verdicts. Hanken Grotesk for controls, data and anything under 14px.</div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:10px">
+          <div style="font-size:11px;letter-spacing:.14em;font-weight:600">COLOUR</div>
+          <div style="display:flex;height:40px;gap:4px"><span style="flex:3;background:#F3EEE2;border:1px solid #CFC7B4"></span><span style="flex:2;background:#1E2620"></span><span style="flex:1;background:#5A3E96"></span><span style="flex:1;background:#3F6B4A"></span><span style="flex:1;background:#A3402A"></span></div>
+          <div style="font-size:14px;line-height:1.5">Herbarium paper and pine ink. Camas violet for brand and links, leaf green for healthy, rust for problems.</div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:10px">
+          <div style="font-size:11px;letter-spacing:.14em;font-weight:600">SHAPE &amp; DENSITY</div>
+          <div style="height:40px;display:flex;align-items:center;gap:8px"><span style="width:80px;height:30px;border:1px solid #1E2620;border-radius:3px 15px 15px 3px"></span><span style="width:40px;height:30px;border:1px solid #1E2620;border-radius:3px"></span></div>
+          <div style="font-size:14px;line-height:1.5">Generous, bookish spacing on web. Soft 3px corners, tag ends on chips. Thin rules like a printed page.</div>
+        </div>
+      </div>
+      <div style="display:flex;gap:14px;align-items:center;flex-wrap:wrap;border-top:1px solid #CFC7B4;padding-top:28px">
+        <button style="height:42px;padding:0 20px;background:#5A3E96;color:#FBF8F1;border:0;border-radius:3px;font:600 15px 'Hanken Grotesk'">Examine link</button>
+        <button style="height:42px;padding:0 20px;background:transparent;color:#1E2620;border:1px solid #1E2620;border-radius:3px;font:600 15px 'Hanken Grotesk'">Save notes</button>
+        <button style="height:42px;padding:0 20px;background:transparent;color:#1E2620;border:1px solid #1E2620;border-radius:3px;font:600 15px 'Hanken Grotesk';outline:2px solid #5A3E96;outline-offset:3px">Focus</button>
+        <span style="display:flex;align-items:center;gap:6px;font-size:13px;font-weight:600;color:#2F5539;background:#E3EBDD;padding:4px 12px 4px 8px;border-radius:3px 12px 12px 3px"><span style="width:6px;height:6px;border-radius:50%;background:#3F6B4A"></span>Healthy</span>
+        <span style="display:flex;align-items:center;gap:6px;font-size:13px;font-weight:600;color:#8A3220;background:#F2E0D8;padding:4px 12px 4px 8px;border-radius:3px 12px 12px 3px"><span style="width:6px;height:6px;border-radius:50%;background:#A3402A"></span>Needs care</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:flex;flex-direction:column;gap:12px">
+    <div style="font-size:12px;color:#4E5650;letter-spacing:.06em">B.2 Extension popup · 360 × 540</div>
+    <div style="width:360px;height:540px;background:#F3EEE2;box-shadow:0 12px 40px rgba(30,38,32,.2),0 0 0 1px rgba(30,38,32,.1);display:flex;flex-direction:column;font-size:13px">
+      <div style="padding:16px 18px 12px;display:flex;justify-content:space-between;align-items:flex-end;border-bottom:1px solid #1E2620">
+        <div style="display:flex;flex-direction:column;gap:2px"><span style="font-size:10px;letter-spacing:.14em;font-weight:600;color:#4E5650">CAMAS · PLATE II</span><span style="font-family:Newsreader,serif;font-size:26px;font-style:italic;line-height:1">Noggin</span></div>
+        <span style="font-size:12px;color:#4E5650">on <b style="color:#1E2620">localhost:3000</b></span>
+      </div>
+      <div style="padding:12px 18px 8px;font-family:Newsreader,serif;font-size:15px;line-height:1.35;color:#323A34">Three headers are being added to requests from this tab.</div>
+      <div style="display:flex;flex-direction:column;padding:0 10px;gap:4px">
+        <div style="display:flex;align-items:center;gap:10px;padding:9px 10px;background:#FBF8F1;border:1px solid #CFC7B4;border-radius:3px"><div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:1px"><span style="font-weight:600;font-size:13px">X-Debug-Mode</span><span style="font-size:12px;color:#4E5650">1</span></div><span style="width:34px;height:20px;border-radius:10px;background:#5A3E96;display:flex;justify-content:flex-end;padding:2px"><span style="width:16px;height:16px;border-radius:50%;background:#FBF8F1"></span></span></div>
+        <div style="display:flex;align-items:center;gap:10px;padding:9px 10px;background:#FBF8F1;border:1px solid #CFC7B4;border-radius:3px"><div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:1px"><span style="font-weight:600;font-size:13px">Authorization</span><span style="font-size:12px;color:#4E5650">Bearer ••••••••3f9a</span></div><span style="width:34px;height:20px;border-radius:10px;background:#5A3E96;display:flex;justify-content:flex-end;padding:2px"><span style="width:16px;height:16px;border-radius:50%;background:#FBF8F1"></span></span></div>
+        <div style="display:flex;align-items:center;gap:10px;padding:9px 10px;background:#FBF8F1;border:1px solid #CFC7B4;border-radius:3px"><div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:1px"><span style="font-weight:600;font-size:13px">Accept-Language</span><span style="font-size:12px;color:#4E5650">fr-CA</span></div><span style="width:34px;height:20px;border-radius:10px;background:#5A3E96;display:flex;justify-content:flex-end;padding:2px"><span style="width:16px;height:16px;border-radius:50%;background:#FBF8F1"></span></span></div>
+        <div style="display:flex;align-items:center;gap:10px;padding:9px 10px;border:1px dashed #A9A08B;border-radius:3px;color:#5C635D"><div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:1px"><span style="font-weight:600;font-size:13px">Cache-Control</span><span style="font-size:12px">no-cache · paused</span></div><span style="width:34px;height:20px;border-radius:10px;border:1.5px solid #6A6A5E;display:flex;padding:2px"><span style="width:13px;height:13px;border-radius:50%;background:#6A6A5E"></span></span></div>
+      </div>
+      <div style="padding:14px 18px 0;display:flex;flex-direction:column;gap:8px">
+        <div style="font-size:10px;letter-spacing:.14em;font-weight:600;color:#4E5650">ADD A HEADER</div>
+        <div style="display:flex;flex-direction:column;border:1px solid #1E2620;border-radius:3px;background:#FBF8F1;outline:2px solid #5A3E96;outline-offset:2px">
+          <div style="height:34px;padding:0 10px;display:flex;align-items:center;border-bottom:1px solid #CFC7B4;font-size:13px">X-Feature-Flag<span style="width:1px;height:14px;background:#1E2620"></span></div>
+          <div style="height:34px;padding:0 10px;display:flex;align-items:center;font-size:13px;color:#7A7A6E">Value</div>
+        </div>
+      </div>
+      <div style="margin-top:auto;padding:12px 18px;display:flex;justify-content:space-between;align-items:center;border-top:1px solid #CFC7B4">
+        <span style="font-family:Newsreader,serif;font-style:italic;font-size:14px;color:#4E5650">Kept in this browser only.</span>
+        <button style="height:32px;padding:0 14px;background:#5A3E96;color:#FBF8F1;border:0;border-radius:3px;font:600 13px 'Hanken Grotesk'">Add</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:12px">
+  <div style="font-size:12px;color:#4E5650;letter-spacing:.06em">B.3 camas.dev · 1280</div>
+  <div style="width:1280px;background:#F3EEE2;display:flex;flex-direction:column">
+    <div style="display:flex;justify-content:space-between;align-items:baseline;padding:28px 64px">
+      <span style="font-family:Newsreader,serif;font-size:32px;font-style:italic">Camas</span>
+      <div style="display:flex;gap:36px;font-size:15px;font-weight:500"><span>The tools</span><span>Notes</span><span>About</span></div>
+    </div>
+    <div style="display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:64px;padding:56px 64px 88px;align-items:end;border-top:1px solid #1E2620">
+      <div style="display:flex;flex-direction:column;gap:28px">
+        <div style="font-size:12px;letter-spacing:.16em;font-weight:600">A FIELD GUIDE TO THE WORKING WEB</div>
+        <div style="font-family:Newsreader,serif;font-size:88px;line-height:.98;letter-spacing:-.015em;text-wrap:balance">Small tools for looking <i>closely</i> at web pages.</div>
+        <div style="font-family:Newsreader,serif;font-size:22px;line-height:1.45;color:#323A34;max-width:560px">Each one does a single job and tells you, in plain language, what it found.</div>
+      </div>
+      <div style="height:440px;background:repeating-linear-gradient(135deg,#E6DFCF 0 6px,#EDE7DA 6px 12px);display:flex;flex-direction:column;justify-content:space-between;padding:16px;font-family:monospace;font-size:11px;color:#6A6A5E"><span>botanical plate — camas, full stem, engraved line</span><span style="font-family:Newsreader,serif;font-style:italic;font-size:15px;color:#1E2620">Fig. 1 — <i>Camassia quamash</i></span></div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid #1E2620;border-bottom:1px solid #1E2620">
+      <div style="padding:40px 40px 48px 64px;display:flex;flex-direction:column;gap:18px;border-right:1px solid #CFC7B4">
+        <div style="display:flex;justify-content:space-between;font-size:12px;letter-spacing:.14em;font-weight:600"><span>PLATE I</span><span style="color:#4E5650">WEB</span></div>
+        <div style="font-family:Newsreader,serif;font-size:44px;font-style:italic;line-height:1">Shareable</div>
+        <div style="font-family:Newsreader,serif;font-size:18px;line-height:1.5;color:#323A34">Shows how a link will appear when someone shares it — and why, when it doesn’t.</div>
+        <div style="font-size:14px;line-height:1.6;color:#4E5650;border-top:1px solid #CFC7B4;padding-top:12px"><b style="color:#1E2620">Found in</b> Slack, X, LinkedIn, iMessage<br><b style="color:#1E2620">Look for</b> missing images, cut-off text</div>
+        <a style="font-weight:600;font-size:15px">Examine a link →</a>
+      </div>
+      <div style="padding:40px 40px 48px;display:flex;flex-direction:column;gap:18px;border-right:1px solid #CFC7B4">
+        <div style="display:flex;justify-content:space-between;font-size:12px;letter-spacing:.14em;font-weight:600"><span>PLATE II</span><span style="color:#4E5650">EXTENSION</span></div>
+        <div style="font-family:Newsreader,serif;font-size:44px;font-style:italic;line-height:1">Noggin</div>
+        <div style="font-family:Newsreader,serif;font-size:18px;line-height:1.5;color:#323A34">Adds HTTP headers to the tab in front of you. Quick to switch on, and entirely local.</div>
+        <div style="font-size:14px;line-height:1.6;color:#4E5650;border-top:1px solid #CFC7B4;padding-top:12px"><b style="color:#1E2620">Found in</b> Chrome toolbar<br><b style="color:#1E2620">Habit</b> one tab, a few headers</div>
+        <a style="font-weight:600;font-size:15px">Add to Chrome →</a>
+      </div>
+      <div style="padding:40px 64px 48px 40px;display:flex;flex-direction:column;gap:18px">
+        <div style="display:flex;justify-content:space-between;font-size:12px;letter-spacing:.14em;font-weight:600"><span>PLATE III</span><span style="color:#4E5650">EXTENSION</span></div>
+        <div style="font-family:Newsreader,serif;font-size:44px;font-style:italic;line-height:1">Bonce</div>
+        <div style="font-family:Newsreader,serif;font-size:18px;line-height:1.5;color:#323A34">Keeps whole sets of headers and applies each to the sites it belongs to.</div>
+        <div style="font-size:14px;line-height:1.6;color:#4E5650;border-top:1px solid #CFC7B4;padding-top:12px"><b style="color:#1E2620">Found in</b> Chrome toolbar<br><b style="color:#1E2620">Habit</b> many sites, many environments</div>
+        <a style="font-weight:600;font-size:15px">Add to Chrome →</a>
+      </div>
+    </div>
+    <div style="display:grid;grid-template-columns:minmax(0,4fr) minmax(0,8fr);gap:64px;padding:80px 64px">
+      <div style="font-size:12px;letter-spacing:.16em;font-weight:600;padding-top:10px">FROM THE COLLECTOR</div>
+      <div style="font-family:Newsreader,serif;font-size:30px;line-height:1.4;text-wrap:pretty">“I build these because I keep needing them. They’re small on purpose, they explain themselves, and they don’t want your data.”<div style="font-family:'Hanken Grotesk';font-size:15px;color:#4E5650;margin-top:16px">— the person behind Camas · <a>Read the notes</a></div></div>
+    </div>
+    <div style="display:flex;justify-content:space-between;padding:22px 64px;border-top:1px solid #1E2620;font-size:13px;color:#4E5650"><span style="font-family:Newsreader,serif;font-style:italic;font-size:16px;color:#1E2620">Camas</span><span>Privacy · Colophon · RSS</span></div>
+  </div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:12px">
+  <div style="font-size:12px;color:#4E5650;letter-spacing:.06em">B.4 Shareable · 1280</div>
+  <div style="width:1280px;background:#F3EEE2;display:flex;flex-direction:column">
+    <div style="display:flex;justify-content:space-between;align-items:center;padding:18px 48px;border-bottom:1px solid #1E2620">
+      <div style="display:flex;align-items:baseline;gap:12px"><span style="font-family:Newsreader,serif;font-size:26px;font-style:italic">Shareable</span><span style="font-size:11px;letter-spacing:.14em;font-weight:600;color:#4E5650">CAMAS · PLATE I</span></div>
+      <div style="display:flex;gap:28px;font-size:14px"><span>Past examinations</span><span>What we check</span></div>
+    </div>
+    <div style="padding:36px 48px 28px;display:flex;gap:12px;align-items:center">
+      <div style="flex:1;height:54px;border:1px solid #1E2620;border-radius:3px;background:#FBF8F1;display:flex;align-items:center;padding:0 18px;font-size:16px">fieldnotes.example/posts/caching-headers</div>
+      <button style="height:54px;padding:0 26px;background:#5A3E96;color:#FBF8F1;border:0;border-radius:3px;font:600 16px 'Hanken Grotesk'">Examine again</button>
+    </div>
+    <div style="display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:56px;padding:12px 48px 64px">
+      <div style="display:flex;flex-direction:column;gap:28px">
+        <div style="display:flex;flex-direction:column;gap:12px;padding-bottom:28px;border-bottom:1px solid #1E2620">
+          <div style="display:flex;gap:8px"><span style="display:flex;align-items:center;gap:6px;font-size:13px;font-weight:600;color:#8A3220;background:#F2E0D8;padding:4px 12px 4px 8px;border-radius:3px 12px 12px 3px"><span style="width:6px;height:6px;border-radius:50%;background:#A3402A"></span>2 need care</span><span style="display:flex;align-items:center;gap:6px;font-size:13px;font-weight:600;color:#2F5539;background:#E3EBDD;padding:4px 12px 4px 8px;border-radius:3px 12px 12px 3px"><span style="width:6px;height:6px;border-radius:50%;background:#3F6B4A"></span>12 healthy</span></div>
+          <div style="font-family:Newsreader,serif;font-size:40px;line-height:1.15;text-wrap:pretty">This link shares well on Slack and LinkedIn, but <i>X will show it without an image</i>, and the description runs long.</div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:0">
+          <div style="display:grid;grid-template-columns:28px minmax(0,1fr) 220px;gap:16px;padding:20px 0;border-bottom:1px solid #CFC7B4">
+            <span style="font-family:Newsreader,serif;font-size:22px;color:#A3402A;line-height:1">1.</span>
+            <div style="display:flex;flex-direction:column;gap:6px"><div style="font-family:Newsreader,serif;font-size:22px">The X card image is missing</div><div style="font-size:15px;line-height:1.55;color:#323A34"><code style="font-size:13px;background:#E9E2D2;padding:1px 5px;border-radius:2px">twitter:image</code> points to <code style="font-size:13px;background:#E9E2D2;padding:1px 5px;border-radius:2px">/img/og-caching.png</code>, which returns 404. Use the same image as <code style="font-size:13px;background:#E9E2D2;padding:1px 5px;border-radius:2px">og:image</code>, or remove the tag.</div></div>
+            <div style="font-family:Newsreader,serif;font-style:italic;font-size:15px;line-height:1.45;color:#4E5650;border-left:1px solid #A3402A;padding-left:14px">Affects X only. Other platforms fall back to og:image.</div>
+          </div>
+          <div style="display:grid;grid-template-columns:28px minmax(0,1fr) 220px;gap:16px;padding:20px 0;border-bottom:1px solid #CFC7B4">
+            <span style="font-family:Newsreader,serif;font-size:22px;color:#A3402A;line-height:1">2.</span>
+            <div style="display:flex;flex-direction:column;gap:6px"><div style="font-family:Newsreader,serif;font-size:22px">The description will be cut short</div><div style="font-size:15px;line-height:1.55;color:#323A34">212 characters. Most previews stop around 160, mid-sentence.</div></div>
+            <div style="font-family:Newsreader,serif;font-style:italic;font-size:15px;line-height:1.45;color:#4E5650;border-left:1px solid #A3402A;padding-left:14px">Lead with the point; the rest can wait for the page.</div>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:10px;padding:24px 0 0">
+            <div style="font-size:11px;letter-spacing:.14em;font-weight:600">HEALTHY</div>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px 32px;font-size:15px">
+              <div style="display:flex;justify-content:space-between;border-bottom:1px dotted #A9A08B;padding-bottom:6px"><span>✓ Title</span><span style="color:#4E5650">48 chars</span></div>
+              <div style="display:flex;justify-content:space-between;border-bottom:1px dotted #A9A08B;padding-bottom:6px"><span>✓ og:image</span><span style="color:#4E5650">1200 × 630</span></div>
+              <div style="display:flex;justify-content:space-between;border-bottom:1px dotted #A9A08B;padding-bottom:6px"><span>✓ Canonical</span><span style="color:#4E5650">matches</span></div>
+              <div style="display:flex;justify-content:space-between;border-bottom:1px dotted #A9A08B;padding-bottom:6px"><span>✓ HTTP status</span><span style="color:#4E5650">200, HTTPS</span></div>
+              <div style="display:flex;justify-content:space-between;border-bottom:1px dotted #A9A08B;padding-bottom:6px"><span>✓ Favicon</span><span style="color:#4E5650">32 px, 180 px</span></div>
+              <div style="display:flex;justify-content:space-between;border-bottom:1px dotted #A9A08B;padding-bottom:6px"><span>✓ Language</span><span style="color:#4E5650">en-GB</span></div>
+            </div>
+            <a style="font-size:14px;font-weight:600;margin-top:6px">All 12 healthy checks</a>
+          </div>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:14px">
+        <div style="font-size:11px;letter-spacing:.14em;font-weight:600">AS SEEN IN</div>
+        <div style="display:flex;gap:6px"><span style="padding:6px 14px 6px 10px;background:#1E2620;color:#F3EEE2;font-size:13px;font-weight:600;border-radius:3px 14px 14px 3px">Slack</span><span style="padding:6px 14px 6px 10px;border:1px solid #1E2620;font-size:13px;font-weight:600;border-radius:3px 14px 14px 3px">X</span><span style="padding:6px 14px 6px 10px;border:1px solid #1E2620;font-size:13px;font-weight:600;border-radius:3px 14px 14px 3px">LinkedIn</span><span style="padding:6px 14px 6px 10px;border:1px solid #1E2620;font-size:13px;font-weight:600;border-radius:3px 14px 14px 3px">iMessage</span></div>
+        <div style="background:#fff;padding:14px;display:flex;flex-direction:column;gap:8px;border-left:4px solid #CFC7B4;box-shadow:0 1px 0 #CFC7B4">
+          <div style="font-size:13px;font-weight:700">fieldnotes.example</div>
+          <div style="font-size:15px;font-weight:700;color:#1D4FB8">Caching headers, explained slowly</div>
+          <div style="font-size:14px;line-height:1.4;color:#3A3A40">Cache-Control, ETag and Vary are easier than they look. A practical walk-through of what each header actually does…</div>
+          <div style="aspect-ratio:1200/630;background:repeating-linear-gradient(135deg,#E6DFCF 0 6px,#EDE7DA 6px 12px);display:grid;place-items:center;font-family:monospace;font-size:11px;color:#6A6A5E">og:image preview</div>
+        </div>
+        <div style="font-family:Newsreader,serif;font-style:italic;font-size:15px;color:#4E5650">Fig. 2 — a likely Slack unfurl, drawn from the tags found.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+</x-dc>
+</body>
+</html>

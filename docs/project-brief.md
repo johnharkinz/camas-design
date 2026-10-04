@@ -273,3 +273,11 @@ The initial design project is successful when:
 - Noggin and Bonce have the assets necessary for Chrome Web Store submission
 - the design system is documented well enough that future Camas tools can build on it
 - implementation has been reviewed against the agreed design rather than merely approximating it
+
+## Name
+
+The name **Camas** comes from the Scottish Gaelic word *camas*, meaning **bay**.
+
+It is inspired by place names such as **Camas Geall**.
+
+It is not named after the Camassia plant, and botanical or wildflower interpretations should not be treated as part of the brand story unless deliberately introduced later.

@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="design_doc_mode" content="canvas">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>body{margin:0;background:#E2DFD8;-webkit-font-smoothing:antialiased}a{color:#17171A;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}a:hover{color:#B23A14}*{box-sizing:border-box}</style>
+</helmet>
+<div style="padding:72px;display:flex;flex-direction:column;gap:80px;font-family:'Schibsted Grotesk',sans-serif;color:#17171A">
+
+<div style="max-width:1320px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,480px),1fr));gap:56px;align-items:start">
+  <div style="display:flex;flex-direction:column;gap:16px">
+    <div style="font-family:'IBM Plex Mono',monospace;font-size:13px">system pass 1 — from A2</div>
+    <div style="font-size:64px;font-weight:800;letter-spacing:-.04em;line-height:.95">Camas, as a system</div>
+    <div style="font-size:20px;line-height:1.45;text-wrap:pretty">The index lives at the family level — the name, the numbers, the site. Inside the tools it steps back: the family shows through type, rules, paper and ink, and the interface gets on with the task.</div>
+  </div>
+  <div style="display:flex;flex-direction:column;font-size:15px;line-height:1.5;border-top:1px solid #17171A">
+    <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#4A4A50;padding:14px 0 6px">decisions in this pass</div>
+    <div style="display:grid;grid-template-columns:140px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid #D6D2C7"><b>Metaphor</b><span>Full dictionary entry on the homepage only. Numbers appear on product marks, lockups and the site index — never on rows, headers or checks.</span></div>
+    <div style="display:grid;grid-template-columns:140px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid #D6D2C7"><b>Thumb index</b><span>Removed from tools. Kept once, on camas.dev, as the site’s index of tools.</span></div>
+    <div style="display:grid;grid-template-columns:140px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid #D6D2C7"><b>Depth</b><span>Two square, hard-edged cues. Raised (2px ink edge) means you can press it. Inset (soft inner shade) means it holds a value. Everything else is flat paper.</span></div>
+    <div style="display:grid;grid-template-columns:140px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid #D6D2C7"><b>Vermilion</b><span>Means “look here”: the index mark, problems and the focus ring. On/active states are ink, so “live” never looks like “wrong”.</span></div>
+    <div style="display:grid;grid-template-columns:140px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid #D6D2C7"><b>Findings</b><span>What happened → why it matters → evidence. The evidence is always a readout, set inset and in mono.</span></div>
+  </div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:12px">
+  <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#4A4A50">1 — Identity</div>
+  <div style="width:1320px;background:#F8F6F0;padding:56px;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:64px">
+    <div style="display:flex;flex-direction:column;gap:44px">
+      <div style="display:flex;flex-direction:column;gap:16px">
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#4A4A50">wordmark</div>
+        <div style="display:flex;align-items:flex-end;gap:48px;flex-wrap:wrap">
+          <span style="display:flex;align-items:flex-start;gap:7px"><span style="font-size:132px;font-weight:800;letter-spacing:-.065em;line-height:.78">camas</span><span style="width:19px;height:19px;background:#D9481F"></span></span>
+          <span style="display:flex;align-items:flex-start;gap:3px;padding-bottom:6px"><span style="font-size:36px;font-weight:800;letter-spacing:-.06em;line-height:.8">camas</span><span style="width:6px;height:6px;background:#D9481F"></span></span>
+          <span style="display:flex;align-items:flex-start;gap:2px;padding-bottom:8px"><span style="font-size:18px;font-weight:800;letter-spacing:-.05em;line-height:.8">camas</span><span style="width:4px;height:4px;background:#D9481F"></span></span>
+        </div>
+        <div style="font-size:15px;line-height:1.5;color:#3A3A40;max-width:560px">Lowercase Schibsted Grotesk 800, tightened. The square mark sits at cap height — the index mark, set against the word like a marker in a margin. Mark size = 14% of the type size; never smaller than 4px.</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:14px;border-top:1px solid #D6D2C7;padding-top:28px">
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#4A4A50">the name — used on the homepage and the about page, nowhere else</div>
+        <div style="display:flex;align-items:baseline;gap:16px"><span style="font-size:56px;font-weight:800;letter-spacing:-.06em;line-height:.9">camas</span><span style="font-family:'IBM Plex Mono',monospace;font-size:15px;color:#4A4A50">/ˈka·məs/</span><span style="font-size:20px;font-style:italic;color:#4A4A50">n.</span></div>
+        <div style="display:grid;grid-template-columns:28px 1fr;gap:6px 0;font-size:18px;line-height:1.45;max-width:600px">
+          <span style="font-weight:700;color:#6B6B70">1.</span><span style="color:#4A4A50"><i>Scottish Gaelic.</i> A bay; a small, sheltered inlet on the coast, as in Camas Geall.</span>
+          <span style="font-weight:700">2.</span><span>An index of small tools for people who build and look after websites.</span>
+        </div>
+      </div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:44px">
+      <div style="display:flex;flex-direction:column;gap:16px">
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#4A4A50">product marks — the number is the icon</div>
+        <div style="display:flex;align-items:flex-end;gap:20px">
+          <div style="display:flex;flex-direction:column;gap:8px;align-items:flex-start"><span style="width:128px;height:128px;background:#17171A;color:#F8F6F0;display:flex;align-items:flex-end;padding:12px 14px;position:relative"><span style="position:absolute;top:0;right:0;width:20px;height:20px;background:#D9481F"></span><span style="font-size:68px;font-weight:300;letter-spacing:-.05em;line-height:.76">02</span></span><span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:#4A4A50">128 store</span></div>
+          <div style="display:flex;flex-direction:column;gap:8px;align-items:flex-start"><span style="width:48px;height:48px;background:#17171A;color:#F8F6F0;display:flex;align-items:flex-end;padding:5px 6px;position:relative"><span style="position:absolute;top:0;right:0;width:8px;height:8px;background:#D9481F"></span><span style="font-size:26px;font-weight:400;letter-spacing:-.05em;line-height:.76">02</span></span><span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:#4A4A50">48</span></div>
+          <div style="display:flex;flex-direction:column;gap:8px;align-items:flex-start"><span style="width:32px;height:32px;background:#17171A;color:#F8F6F0;display:flex;align-items:flex-end;padding:3px 4px;position:relative"><span style="position:absolute;top:0;right:0;width:6px;height:6px;background:#D9481F"></span><span style="font-size:18px;font-weight:500;letter-spacing:-.05em;line-height:.76">02</span></span><span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:#4A4A50">32</span></div>
+          <div style="display:flex;flex-direction:column;gap:8px;align-items:flex-start"><span style="width:16px;height:16px;background:#17171A;color:#F8F6F0;display:grid;place-items:center;font-size:11px;font-weight:800;letter-spacing:-.04em">2</span><span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:#4A4A50">16</span></div>
+          <div style="display:flex;flex-direction:column;gap:8px;margin-left:12px">
+            <div style="display:flex;gap:8px;align-items:flex-end">
+              <span style="width:32px;height:32px;background:#17171A;color:#F8F6F0;display:flex;align-items:flex-end;padding:3px 4px;position:relative"><span style="position:absolute;top:0;right:0;width:6px;height:6px;background:#D9481F"></span><span style="font-size:18px;font-weight:500;letter-spacing:-.05em;line-height:.76">01</span></span>
+              <span style="width:32px;height:32px;background:#17171A;color:#F8F6F0;display:flex;align-items:flex-end;padding:3px 4px;position:relative"><span style="position:absolute;top:0;right:0;width:6px;height:6px;background:#D9481F"></span><span style="font-size:18px;font-weight:500;letter-spacing:-.05em;line-height:.76">02</span></span>
+              <span style="width:32px;height:32px;background:#17171A;color:#F8F6F0;display:flex;align-items:flex-end;padding:3px 4px;position:relative"><span style="position:absolute;top:0;right:0;width:6px;height:6px;background:#D9481F"></span><span style="font-size:18px;font-weight:500;letter-spacing:-.05em;line-height:.76">03</span></span>
+              <span style="width:32px;height:32px;border:1px dashed #6B6B70;color:#6B6B70;display:flex;align-items:flex-end;padding:3px 4px"><span style="font-size:18px;font-weight:300;letter-spacing:-.05em;line-height:.76">04</span></span>
+            </div>
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:#4A4A50">family</span>
+          </div>
+        </div>
+        <div style="font-size:15px;line-height:1.5;color:#3A3A40">Ink square, light numeral bottom-left, vermilion corner cut. Numeral weight rises as size drops (300 → 800). At 16px the corner and leading zero are dropped. Numbers are assigned in order of release and never reused.</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:14px;border-top:1px solid #D6D2C7;padding-top:28px">
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#4A4A50">camas ↔ product</div>
+        <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px">
+          <div style="display:flex;flex-direction:column;gap:8px">
+            <div style="display:flex;align-items:baseline;gap:10px"><span style="font-size:36px;font-weight:300;letter-spacing:-.05em">02</span><span style="font-size:32px;font-weight:800;letter-spacing:-.035em">Noggin</span></div>
+            <div style="font-size:13px;color:#4A4A50;line-height:1.45"><b style="color:#17171A">Family lockup.</b> camas.dev, store listings, docs. Number in 300, name in 800, same size.</div>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:8px">
+            <div style="display:flex;align-items:center;gap:8px;height:43px"><span style="width:22px;height:22px;background:#17171A;color:#F8F6F0;display:flex;align-items:flex-end;padding:2px 3px;position:relative"><span style="position:absolute;top:0;right:0;width:4px;height:4px;background:#D9481F"></span><span style="font-size:12px;font-weight:600;letter-spacing:-.04em;line-height:.76">02</span></span><span style="font-size:18px;font-weight:800;letter-spacing:-.025em">Noggin</span></div>
+            <div style="font-size:13px;color:#4A4A50;line-height:1.45"><b style="color:#17171A">In-product.</b> Mark + name only. The product never shows the Camas wordmark in its own header.</div>
+          </div>
+          <div style="grid-column:1 / -1;display:flex;align-items:center;gap:16px;padding:12px 0;border-top:1px solid #D6D2C7;font-size:13px;color:#4A4A50"><span style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#17171A">Noggin — camas 02</span><span>Endorsement line, used in footers, about panels and store descriptions.</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:12px">
+  <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#4A4A50">2 — Core design language</div>
+  <div style="width:1320px;background:#F8F6F0;padding:56px;display:flex;flex-direction:column;gap:48px">
+    <div style="display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:64px">
+      <div style="display:flex;flex-direction:column;gap:0">
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#4A4A50;padding-bottom:10px;border-bottom:1px solid #17171A">typography — one grotesk, mono for evidence</div>
+        <div style="display:grid;grid-template-columns:110px minmax(0,1fr) 150px;align-items:baseline;gap:16px;padding:12px 0;border-bottom:1px solid #D6D2C7"><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#4A4A50">display</span><span style="font-size:52px;font-weight:800;letter-spacing:-.04em;line-height:1">Shares well</span><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#4A4A50">52–76 / 800 / −4%</span></div>
+        <div style="display:grid;grid-template-columns:110px minmax(0,1fr) 150px;align-items:baseline;gap:16px;padding:12px 0;border-bottom:1px solid #D6D2C7"><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#4A4A50">numeral</span><span style="font-size:52px;font-weight:300;letter-spacing:-.05em;line-height:1">01 02 03</span><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#4A4A50">family only / 300</span></div>
+        <div style="display:grid;grid-template-columns:110px minmax(0,1fr) 150px;align-items:baseline;gap:16px;padding:12px 0;border-bottom:1px solid #D6D2C7"><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#4A4A50">heading</span><span style="font-size:24px;font-weight:700;letter-spacing:-.02em">The X card image is missing</span><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#4A4A50">20–24 / 700</span></div>
+        <div style="display:grid;grid-template-columns:110px minmax(0,1fr) 150px;align-items:baseline;gap:16px;padding:12px 0;border-bottom:1px solid #D6D2C7"><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#4A4A50">body</span><span style="font-size:16px;line-height:1.5">People will see a card with no picture. <i>Asides and definitions in italic.</i></span><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#4A4A50">15–18 / 400</span></div>
+        <div style="display:grid;grid-template-columns:110px minmax(0,1fr) 150px;align-items:baseline;gap:16px;padding:12px 0;border-bottom:1px solid #D6D2C7"><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#4A4A50">ui</span><span style="font-size:13px;font-weight:600">Add header · Settings · On</span><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#4A4A50">12–14 / 600</span></div>
+        <div style="display:grid;grid-template-columns:110px minmax(0,1fr) 150px;align-items:baseline;gap:16px;padding:12px 0;border-bottom:1px solid #D6D2C7"><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#4A4A50">mono</span><span style="font-family:'IBM Plex Mono',monospace;font-size:13px">twitter:image → 404 · X-Debug-Mode: 1</span><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#4A4A50">11.5–13 / 400–500</span></div>
+        <div style="font-size:14px;line-height:1.5;color:#3A3A40;padding-top:12px"><b style="color:#17171A">Mono is for things the machine said or will send:</b> header names and values, tag names, URLs, status codes, sizes. Also small meta labels. Never for headings, buttons or explanations.</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:20px">
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#4A4A50;padding-bottom:10px;border-bottom:1px solid #17171A">colour — roles, not a palette</div>
+        <div style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px">
+          <div style="display:flex;flex-direction:column;gap:6px"><span style="height:56px;background:#F8F6F0;border:1px solid #D6D2C7"></span><span style="font-size:12px;font-weight:600">Paper</span><span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:#4A4A50">#F8F6F0</span></div>
+          <div style="display:flex;flex-direction:column;gap:6px"><span style="height:56px;background:#FFFDF8;border:1px solid #D6D2C7"></span><span style="font-size:12px;font-weight:600">Raised</span><span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:#4A4A50">#FFFDF8</span></div>
+          <div style="display:flex;flex-direction:column;gap:6px"><span style="height:56px;background:#EDEAE2;box-shadow:inset 0 1px 3px rgba(23,23,26,.12)"></span><span style="font-size:12px;font-weight:600">Inset</span><span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:#4A4A50">#EDEAE2</span></div>
+          <div style="display:flex;flex-direction:column;gap:6px"><span style="height:56px;background:#EFECE4"></span><span style="font-size:12px;font-weight:600">Current</span><span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:#4A4A50">#EFECE4</span></div>
+          <div style="display:flex;flex-direction:column;gap:6px"><span style="height:56px;background:#17171A"></span><span style="font-size:12px;font-weight:600">Ink · on</span><span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:#4A4A50">#17171A</span></div>
+          <div style="display:flex;flex-direction:column;gap:6px"><span style="height:56px;background:#4A4A50"></span><span style="font-size:12px;font-weight:600">Ink 2</span><span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:#4A4A50">#4A4A50</span></div>
+          <div style="display:flex;flex-direction:column;gap:6px"><span style="height:56px;background:#D9481F"></span><span style="font-size:12px;font-weight:600">Look here</span><span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:#4A4A50">#D9481F · text #B23A14</span></div>
+          <div style="display:flex;flex-direction:column;gap:6px"><span style="height:56px;background:#B7791F"></span><span style="font-size:12px;font-weight:600">Watch</span><span style="font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:#4A4A50">#B7791F · text #8A5A12</span></div>
+        </div>
+        <div style="font-size:14px;line-height:1.5;color:#3A3A40"><b style="color:#17171A">Vermilion is spent on three things only:</b> the index mark, problems, and the focus ring. It is never a button fill or a decorative highlight. All text pairs meet 4.5:1 on paper.</div>
+        <div style="display:flex;flex-direction:column;gap:10px;border-top:1px solid #D6D2C7;padding-top:16px">
+          <div style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#4A4A50">spacing · 4px base</div>
+          <div style="display:flex;align-items:flex-end;gap:14px">
+            <div style="display:flex;flex-direction:column;align-items:center;gap:4px"><span style="width:4px;height:4px;background:#17171A"></span><span style="font-family:'IBM Plex Mono',monospace;font-size:10px">4</span></div>
+            <div style="display:flex;flex-direction:column;align-items:center;gap:4px"><span style="width:8px;height:8px;background:#17171A"></span><span style="font-family:'IBM Plex Mono',monospace;font-size:10px">8</span></div>
+            <div style="display:flex;flex-direction:column;align-items:center;gap:4px"><span style="width:12px;height:12px;background:#17171A"></span><span style="font-family:'IBM Plex Mono',monospace;font-size:10px">12</span></div>
+            <div style="display:flex;flex-direction:column;align-items:center;gap:4px"><span style="width:16px;height:16px;background:#17171A"></span><span style="font-family:'IBM Plex Mono',monospace;font-size:10px">16</span></div>
+            <div style="display:flex;flex-direction:column;align-items:center;gap:4px"><span style="width:24px;height:24px;background:#17171A"></span><span style="font-family:'IBM Plex Mono',monospace;font-size:10px">24</span></div>
+            <div style="display:flex;flex-direction:column;align-items:center;gap:4px"><span style="width:32px;height:32px;background:#17171A"></span><span style="font-family:'IBM Plex Mono',monospace;font-size:10px">32</span></div>
+            <div style="display:flex;flex-direction:column;align-items:center;gap:4px"><span style="width:48px;height:48px;background:#17171A"></span><span style="font-family:'IBM Plex Mono',monospace;font-size:10px">48</span></div>
+            <div style="display:flex;flex-direction:column;align-items:center;gap:4px"><span style="width:72px;height:72px;background:#17171A"></span><span style="font-family:'IBM Plex Mono',monospace;font-size:10px">72</span></div>
+            <div style="font-size:13px;line-height:1.5;color:#3A3A40;margin-left:8px">Extensions live on 4–16. Tools on 8–32. The site uses 24–72 for section rhythm. Row heights: 36 (Bonce), 44 (Noggin), 48+ (web).</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px;border-top:1px solid #17171A;padding-top:32px">
+      <div style="display:flex;flex-direction:column;gap:16px">
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#4A4A50">depth — function, not style</div>
+        <div style="display:grid;grid-template-columns:96px 1fr;gap:14px;align-items:center">
+          <span style="height:36px;background:#FFFDF8;border:1px solid #17171A;box-shadow:0 2px 0 #17171A"></span><span style="font-size:14px;line-height:1.4"><b>Raised</b> — press it. A 2px hard ink edge below. Buttons, switch knobs, selected segment.</span>
+          <span style="height:36px;background:#EDEAE2;border:1px solid #CFCABF;box-shadow:inset 0 1px 3px rgba(23,23,26,.12)"></span><span style="font-size:14px;line-height:1.4"><b>Inset</b> — holds a value. Inputs, switch tracks, evidence readouts.</span>
+          <span style="height:36px;border-top:1px solid #17171A;border-bottom:1px solid #D6D2C7"></span><span style="font-size:14px;line-height:1.4"><b>Flat</b> — layout. Sections, lists, cards are rules on paper. No drop shadows anywhere.</span>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:16px">
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#4A4A50">rules</div>
+        <div style="display:grid;grid-template-columns:96px 1fr;gap:14px;align-items:center;font-size:14px;line-height:1.4">
+          <span style="height:1px;background:#17171A"></span><span><b>Ink rule</b> — starts or ends a section.</span>
+          <span style="height:1px;background:#D6D2C7"></span><span><b>Hairline</b> — between rows.</span>
+          <span style="height:0;border-top:1px dashed #6B6B70"></span><span><b>Dashed</b> — not yet: future entry, empty slot, draft.</span>
+          <span style="height:14px;box-shadow:inset 3px 0 0 #17171A;background:#EFECE4"></span><span><b>Left bar</b> — the current / active item.</span>
+        </div>
+        <div style="font-size:13px;color:#4A4A50">Corners are square everywhere. No radius tokens exist.</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:16px">
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#4A4A50">status — shape + word, colour third</div>
+        <div style="display:flex;flex-direction:column;gap:10px;font-size:14px">
+          <div style="display:flex;align-items:center;gap:10px"><span style="width:10px;height:10px;background:#D9481F"></span><b style="color:#B23A14">Problem</b><span style="color:#4A4A50">— will visibly go wrong</span></div>
+          <div style="display:flex;align-items:center;gap:10px"><span style="width:10px;height:10px;border:1.5px solid #B7791F;box-shadow:inset 0 -4px 0 #B7791F"></span><b style="color:#8A5A12">Watch</b><span style="color:#4A4A50">— works, but fragile</span></div>
+          <div style="display:flex;align-items:center;gap:10px"><span style="width:10px;height:10px;display:grid;place-items:center;font-size:12px;font-weight:700">✓</span><b>Fine</b><span style="color:#4A4A50">— nothing to do</span></div>
+          <div style="display:flex;align-items:center;gap:10px"><span style="width:10px;height:10px;background:#17171A"></span><b>On</b><span style="color:#4A4A50">— being applied now</span></div>
+          <div style="display:flex;align-items:center;gap:10px"><span style="width:10px;height:10px;border:1px solid #6B6B70"></span><span style="color:#4A4A50"><b style="color:#4A4A50">Off</b> — kept, not applied</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px;border-top:1px solid #17171A;padding-top:32px">
+      <div style="display:flex;flex-direction:column;gap:14px">
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#4A4A50">buttons</div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center">
+          <button style="height:40px;padding:0 18px;background:#17171A;color:#F8F6F0;border:1px solid #17171A;box-shadow:0 2px 0 #000;font:600 15px 'Schibsted Grotesk'">Check link</button>
+          <button style="height:40px;padding:0 18px;background:#FFFDF8;color:#17171A;border:1px solid #17171A;box-shadow:0 2px 0 #17171A;font:600 15px 'Schibsted Grotesk'">Copy report</button>
+          <button style="height:40px;padding:0 6px;background:transparent;color:#17171A;border:0;font:600 15px 'Schibsted Grotesk';text-decoration:underline;text-underline-offset:4px">Show all</button>
+        </div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center">
+          <button style="height:40px;padding:0 18px;background:#EFECE4;color:#17171A;border:1px solid #17171A;transform:translateY(2px);font:600 15px 'Schibsted Grotesk'">Pressed</button>
+          <button style="height:40px;padding:0 18px;background:#FFFDF8;color:#17171A;border:1px solid #17171A;box-shadow:0 2px 0 #17171A;outline:2px solid #D9481F;outline-offset:3px;font:600 15px 'Schibsted Grotesk'">Focus</button>
+          <button style="height:40px;padding:0 18px;background:transparent;color:#8A8A90;border:1px dashed #B5B1A7;font:600 15px 'Schibsted Grotesk'">Disabled</button>
+        </div>
+        <div style="font-size:13px;line-height:1.45;color:#4A4A50">Primary is ink, one per view. Pressed loses its edge and drops 2px. Disabled goes flat and dashed — it can’t be pressed, so it isn’t raised.</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:14px">
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#4A4A50">inputs &amp; readouts</div>
+        <div style="height:40px;background:#EDEAE2;border:1px solid #B5B1A7;box-shadow:inset 0 1px 3px rgba(23,23,26,.10);display:flex;align-items:center;padding:0 12px;font-family:'IBM Plex Mono',monospace;font-size:13px;color:#6B6B70">Header name</div>
+        <div style="height:40px;background:#FFFDF8;border:1px solid #17171A;outline:2px solid #D9481F;outline-offset:2px;display:flex;align-items:center;padding:0 12px;font-family:'IBM Plex Mono',monospace;font-size:13px">X-Feature-Flag<span style="width:1px;height:16px;background:#17171A"></span></div>
+        <div style="display:flex;flex-direction:column;gap:5px"><div style="height:40px;background:#EDEAE2;border:1px solid #B23A14;box-shadow:inset 0 1px 3px rgba(23,23,26,.10);display:flex;align-items:center;padding:0 12px;font-family:'IBM Plex Mono',monospace;font-size:13px">X Feature</div><span style="font-size:13px;color:#B23A14;display:flex;gap:6px;align-items:center"><span style="width:8px;height:8px;background:#D9481F"></span>Header names can’t contain spaces.</span></div>
+        <div style="background:#EDEAE2;box-shadow:inset 0 1px 3px rgba(23,23,26,.10);padding:8px 12px;font-family:'IBM Plex Mono',monospace;font-size:12.5px;display:grid;grid-template-columns:80px 1fr;gap:4px 10px"><span style="color:#4A4A50">tag</span><span>twitter:image</span><span style="color:#4A4A50">response</span><span>404 Not Found</span></div>
+        <div style="font-size:13px;line-height:1.45;color:#4A4A50">Focused fields lift to the raised surface, so the cursor’s home is obvious. Readouts are inset with no border — values, not fields.</div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:14px">
+        <div style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#4A4A50">switches &amp; segments</div>
+        <div style="display:flex;gap:24px;align-items:center">
+          <span style="display:flex;align-items:center;gap:8px;font-size:13px;font-weight:600"><span style="width:36px;height:20px;background:#17171A;padding:2px;display:flex;justify-content:flex-end"><span style="width:16px;height:16px;background:#FFFDF8"></span></span>On</span>
+          <span style="display:flex;align-items:center;gap:8px;font-size:13px;font-weight:600;color:#4A4A50"><span style="width:36px;height:20px;background:#EDEAE2;border:1px solid #B5B1A7;box-shadow:inset 0 1px 2px rgba(23,23,26,.12);padding:1px;display:flex"><span style="width:16px;height:16px;background:#FFFDF8;border:1px solid #17171A;box-shadow:0 1px 0 #17171A"></span></span>Off</span>
+          <span style="display:flex;align-items:center;gap:8px;font-size:13px;font-weight:600"><span style="width:28px;height:16px;background:#17171A;padding:2px;display:flex;justify-content:flex-end"><span style="width:12px;height:12px;background:#FFFDF8"></span></span>Small</span>
+        </div>
+        <div style="display:flex;padding:3px;gap:3px;background:#EDEAE2;box-shadow:inset 0 1px 3px rgba(23,23,26,.10);font-size:13px;font-weight:600;width:max-content"><span style="padding:6px 14px;background:#FFFDF8;border:1px solid #17171A;box-shadow:0 2px 0 #17171A">Slack</span><span style="padding:6px 14px;border:1px solid transparent">X</span><span style="padding:6px 14px;border:1px solid transparent">LinkedIn</span></div>
+        <div style="font-size:13px;line-height:1.45;color:#4A4A50">Square switches. On = solid ink track (the state you can read from across a room). Off = inset track with a raised knob waiting to be pushed. Always paired with a word in dense views.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="display:flex;gap:48px;align-items:flex-start;flex-wrap:wrap">
+  <div style="display:flex;flex-direction:column;gap:12px">
+    <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#4A4A50">3 — Noggin · popup 360 × 540 · adding a header</div>
+    <div style="width:360px;height:540px;background:#F8F6F0;box-shadow:0 12px 40px rgba(0,0,0,.18),0 0 0 1px rgba(0,0,0,.08);display:flex;flex-direction:column;font-size:13px">
+      <div style="height:48px;display:flex;align-items:center;justify-content:space-between;padding:0 14px;border-bottom:1px solid #17171A">
+        <div style="display:flex;align-items:center;gap:8px"><span style="width:22px;height:22px;background:#17171A;color:#F8F6F0;display:flex;align-items:flex-end;padding:2px 3px;position:relative"><span style="position:absolute;top:0;right:0;width:4px;height:4px;background:#D9481F"></span><span style="font-size:12px;font-weight:600;letter-spacing:-.04em;line-height:.76">02</span></span><span style="font-size:16px;font-weight:800;letter-spacing:-.025em">Noggin</span></div>
+        <div style="display:flex;align-items:center;gap:14px"><span style="font-size:12px;font-weight:600;text-decoration:underline;text-underline-offset:3px">Settings</span><span style="display:flex;align-items:center;gap:7px;font-size:12px;font-weight:600">On<span style="width:36px;height:20px;background:#17171A;padding:2px;display:flex;justify-content:flex-end"><span style="width:16px;height:16px;background:#FFFDF8"></span></span></span></div>
+      </div>
+      <div style="padding:12px 14px;display:flex;flex-direction:column;gap:8px;border-bottom:1px solid #D6D2C7">
+        <div style="display:flex;justify-content:space-between;align-items:center"><span style="font-size:12px;font-weight:600;color:#4A4A50">This site</span><span style="font-size:12px;color:#4A4A50">all tabs on this site</span></div>
+        <div style="height:30px;background:#EDEAE2;box-shadow:inset 0 1px 3px rgba(23,23,26,.10);display:flex;align-items:center;padding:0 10px;font-family:'IBM Plex Mono',monospace;font-size:12px">localhost:3000</div>
+        <div style="font-size:14px;line-height:1.35;display:flex;gap:8px;align-items:center"><span style="width:8px;height:8px;background:#17171A;flex:none"></span>Adding 3 headers to every request.</div>
+      </div>
+      <div style="display:flex;flex-direction:column">
+        <div style="display:flex;align-items:center;gap:10px;height:44px;padding:0 14px;border-bottom:1px solid #D6D2C7"><div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:1px"><span style="font-family:'IBM Plex Mono',monospace;font-size:12.5px;font-weight:500">X-Debug-Mode</span><span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#4A4A50">1</span></div><span style="width:28px;height:16px;background:#17171A;padding:2px;display:flex;justify-content:flex-end"><span style="width:12px;height:12px;background:#FFFDF8"></span></span></div>
+        <div style="display:flex;align-items:center;gap:10px;height:44px;padding:0 14px;border-bottom:1px solid #D6D2C7"><div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:1px"><span style="font-family:'IBM Plex Mono',monospace;font-size:12.5px;font-weight:500">Authorization</span><span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#4A4A50">Bearer ••••••••3f9a</span></div><span style="width:28px;height:16px;background:#17171A;padding:2px;display:flex;justify-content:flex-end"><span style="width:12px;height:12px;background:#FFFDF8"></span></span></div>
+        <div style="display:flex;align-items:center;gap:10px;height:44px;padding:0 14px;border-bottom:1px solid #D6D2C7"><div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:1px"><span style="font-family:'IBM Plex Mono',monospace;font-size:12.5px;font-weight:500">Accept-Language</span><span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#4A4A50">fr-CA</span></div><span style="width:28px;height:16px;background:#17171A;padding:2px;display:flex;justify-content:flex-end"><span style="width:12px;height:12px;background:#FFFDF8"></span></span></div>
+        <div style="display:flex;align-items:center;gap:10px;height:44px;padding:0 14px;border-bottom:1px solid #D6D2C7;color:#6B6B70"><div style="flex:1;min-width:0;display:flex;flex-direction:column;gap:1px"><span style="font-family:'IBM Plex Mono',monospace;font-size:12.5px;font-weight:500">Cache-Control</span><span style="font-family:'IBM Plex Mono',monospace;font-size:12px">no-cache</span></div><span style="font-size:11.5px">Off</span><span style="width:28px;height:16px;background:#EDEAE2;border:1px solid #B5B1A7;box-shadow:inset 0 1px 2px rgba(23,23,26,.12);padding:1px;display:flex"><span style="width:12px;height:12px;background:#FFFDF8;border:1px solid #17171A;box-shadow:0 1px 0 #17171A"></span></span></div>
+      </div>
+      <div style="padding:14px;display:flex;flex-direction:column;gap:8px;background:#EFECE4;border-bottom:1px solid #D6D2C7">
+        <span style="font-size:12px;font-weight:600">New header</span>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px">
+          <div style="height:34px;background:#FFFDF8;border:1px solid #17171A;outline:2px solid #D9481F;outline-offset:1px;padding:0 8px;display:flex;align-items:center;font-family:'IBM Plex Mono',monospace;font-size:12px">X-Feature-Flag<span style="width:1px;height:14px;background:#17171A"></span></div>
+          <div style="height:34px;background:#EDEAE2;border:1px solid #B5B1A7;box-shadow:inset 0 1px 3px rgba(23,23,26,.10);padding:0 8px;display:flex;align-items:center;font-family:'IBM Plex Mono',monospace;font-size:12px;color:#6B6B70">Value</div>
+        </div>
+        <div style="display:flex;gap:8px;justify-content:flex-end">
+          <button style="height:30px;padding:0 10px;background:transparent;border:0;font:600 13px 'Schibsted Grotesk';color:#17171A">Cancel</button>
+          <button style="height:30px;padding:0 14px;background:#17171A;color:#F8F6F0;border:1px solid #17171A;box-shadow:0 2px 0 #000;font:600 13px 'Schibsted Grotesk'">Add header</button>
+        </div>
+      </div>
+      <div style="margin-top:auto;padding:10px 14px;border-top:1px solid #17171A;font-size:12px;line-height:1.4;color:#4A4A50">Saved on this device only. Noggin never sends your headers anywhere else.</div>
+    </div>
+  </div>
+
+  <div style="display:flex;flex-direction:column;gap:12px">
+    <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#4A4A50">4a — Bonce · popup 400 × 600 · sets for this site</div>
+    <div style="width:400px;height:600px;background:#F8F6F0;box-shadow:0 12px 40px rgba(0,0,0,.18),0 0 0 1px rgba(0,0,0,.08);display:flex;flex-direction:column;font-size:13px">
+      <div style="height:48px;display:flex;align-items:center;justify-content:space-between;padding:0 14px;border-bottom:1px solid #17171A">
+        <div style="display:flex;align-items:center;gap:8px"><span style="width:22px;height:22px;background:#17171A;color:#F8F6F0;display:flex;align-items:flex-end;padding:2px 3px;position:relative"><span style="position:absolute;top:0;right:0;width:4px;height:4px;background:#D9481F"></span><span style="font-size:12px;font-weight:600;letter-spacing:-.04em;line-height:.76">03</span></span><span style="font-size:16px;font-weight:800;letter-spacing:-.025em">Bonce</span></div>
+        <div style="display:flex;align-items:center;gap:14px"><span style="font-size:12px;font-weight:600;text-decoration:underline;text-underline-offset:3px">Settings</span><span style="display:flex;align-items:center;gap:7px;font-size:12px;font-weight:600">On<span style="width:36px;height:20px;background:#17171A;padding:2px;display:flex;justify-content:flex-end"><span style="width:16px;height:16px;background:#FFFDF8"></span></span></span></div>
+      </div>
+      <div style="padding:12px 14px;display:flex;flex-direction:column;gap:8px;border-bottom:1px solid #D6D2C7">
+        <div style="display:flex;justify-content:space-between;align-items:center"><span style="font-size:12px;font-weight:600;color:#4A4A50">This site</span></div>
+        <div style="height:30px;background:#EDEAE2;box-shadow:inset 0 1px 3px rgba(23,23,26,.10);display:flex;align-items:center;padding:0 10px;font-family:'IBM Plex Mono',monospace;font-size:12px">app.staging.example.dev</div>
+        <div style="font-size:14px;line-height:1.35;font-weight:600">2 sets apply here — 6 headers in total.</div>
+        <div style="display:flex;gap:8px;font-size:12.5px;line-height:1.4;color:#3A3A40"><span style="width:9px;height:9px;border:1.5px solid #B7791F;box-shadow:inset 0 -3px 0 #B7791F;margin-top:3px;flex:none"></span><span>Both sets add <span style="font-family:'IBM Plex Mono',monospace;font-size:11.5px">Authorization</span>. <b>Staging auth</b> wins because it’s higher in the list.</span></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;align-items:center;padding:10px 14px 8px">
+        <span style="font-size:12px;font-weight:600;color:#4A4A50">Sets · in priority order</span>
+        <button style="height:26px;padding:0 10px;background:#FFFDF8;color:#17171A;border:1px solid #17171A;box-shadow:0 2px 0 #17171A;font:600 12px 'Schibsted Grotesk'">New set</button>
+      </div>
+      <div style="display:flex;flex-direction:column;border-top:1px solid #17171A">
+        <div style="display:grid;grid-template-columns:14px minmax(0,1fr) auto;gap:10px;align-items:center;padding:10px 14px;border-bottom:1px solid #D6D2C7;background:#EFECE4;box-shadow:inset 3px 0 0 #17171A">
+          <span style="font-size:11px;color:#6B6B70;letter-spacing:-1px">⋮⋮</span>
+          <div style="display:flex;flex-direction:column;gap:3px;min-width:0"><span style="display:flex;align-items:center;gap:8px"><span style="font-size:14px;font-weight:700">Staging auth</span><span style="font-size:11px;font-weight:600;padding:1px 6px;background:#17171A;color:#F8F6F0">Applies here</span></span><span style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#4A4A50">4 headers · *.staging.example.dev</span></div>
+          <span style="width:28px;height:16px;background:#17171A;padding:2px;display:flex;justify-content:flex-end"><span style="width:12px;height:12px;background:#FFFDF8"></span></span>
+        </div>
+        <div style="display:grid;grid-template-columns:14px minmax(0,1fr) auto;gap:10px;align-items:center;padding:10px 14px;border-bottom:1px solid #D6D2C7;background:#EFECE4;box-shadow:inset 3px 0 0 #17171A">
+          <span style="font-size:11px;color:#6B6B70;letter-spacing:-1px">⋮⋮</span>
+          <div style="display:flex;flex-direction:column;gap:3px;min-width:0"><span style="display:flex;align-items:center;gap:8px"><span style="font-size:14px;font-weight:700">Beta feature flags</span><span style="font-size:11px;font-weight:600;padding:1px 6px;background:#17171A;color:#F8F6F0">Applies here</span></span><span style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#4A4A50">2 headers · *.example.dev</span></div>
+          <span style="width:28px;height:16px;background:#17171A;padding:2px;display:flex;justify-content:flex-end"><span style="width:12px;height:12px;background:#FFFDF8"></span></span>
+        </div>
+        <div style="display:grid;grid-template-columns:14px minmax(0,1fr) auto;gap:10px;align-items:center;padding:10px 14px;border-bottom:1px solid #D6D2C7">
+          <span style="font-size:11px;color:#6B6B70;letter-spacing:-1px">⋮⋮</span>
+          <div style="display:flex;flex-direction:column;gap:3px;min-width:0"><span style="font-size:14px;font-weight:700">French locale</span><span style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#4A4A50">1 header · *.example.fr</span></div>
+          <span style="width:28px;height:16px;background:#17171A;padding:2px;display:flex;justify-content:flex-end"><span style="width:12px;height:12px;background:#FFFDF8"></span></span>
+        </div>
+        <div style="display:grid;grid-template-columns:14px minmax(0,1fr) auto;gap:10px;align-items:center;padding:10px 14px;border-bottom:1px solid #D6D2C7;color:#6B6B70">
+          <span style="font-size:11px;letter-spacing:-1px">⋮⋮</span>
+          <div style="display:flex;flex-direction:column;gap:3px;min-width:0"><span style="font-size:14px;font-weight:700">Production debug</span><span style="font-family:'IBM Plex Mono',monospace;font-size:11.5px">3 headers · example.com · off</span></div>
+          <span style="width:28px;height:16px;background:#EDEAE2;border:1px solid #B5B1A7;box-shadow:inset 0 1px 2px rgba(23,23,26,.12);padding:1px;display:flex"><span style="width:12px;height:12px;background:#FFFDF8;border:1px solid #17171A;box-shadow:0 1px 0 #17171A"></span></span>
+        </div>
+      </div>
+      <div style="margin-top:auto;padding:10px 14px;border-top:1px solid #17171A;display:flex;justify-content:space-between;gap:12px;font-size:12px;line-height:1.4;color:#4A4A50"><span>Saved on this device only.</span><span>Drag to change priority</span></div>
+    </div>
+  </div>
+
+  <div style="display:flex;flex-direction:column;gap:12px">
+    <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#4A4A50">4b — Bonce · editing a set</div>
+    <div style="width:400px;height:600px;background:#F8F6F0;box-shadow:0 12px 40px rgba(0,0,0,.18),0 0 0 1px rgba(0,0,0,.08);display:flex;flex-direction:column;font-size:13px">
+      <div style="height:48px;display:flex;align-items:center;justify-content:space-between;padding:0 14px;border-bottom:1px solid #17171A">
+        <div style="display:flex;align-items:center;gap:10px"><span style="font-size:13px;font-weight:600">← Sets</span><span style="width:1px;height:18px;background:#D6D2C7"></span><span style="font-size:16px;font-weight:800;letter-spacing:-.025em">Staging auth</span></div>
+        <span style="display:flex;align-items:center;gap:7px;font-size:12px;font-weight:600">On<span style="width:36px;height:20px;background:#17171A;padding:2px;display:flex;justify-content:flex-end"><span style="width:16px;height:16px;background:#FFFDF8"></span></span></span>
+      </div>
+      <div style="padding:12px 14px 14px;display:flex;flex-direction:column;gap:8px;border-bottom:1px solid #D6D2C7">
+        <div style="display:flex;justify-content:space-between;align-items:center"><span style="font-size:12px;font-weight:600">Applies to</span><span style="font-size:12px;display:flex;align-items:center;gap:5px">✓ Matches this site</span></div>
+        <div style="display:flex;flex-direction:column;gap:4px">
+          <div style="display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;align-items:center;background:#EDEAE2;box-shadow:inset 0 1px 3px rgba(23,23,26,.10);padding:6px 10px"><span style="display:flex;flex-direction:column;gap:1px"><span style="font-family:'IBM Plex Mono',monospace;font-size:12px">*.staging.example.dev</span><span style="font-size:11.5px;color:#4A4A50">Any subdomain of staging.example.dev</span></span><span style="font-size:12px;color:#4A4A50">Edit</span></div>
+          <div style="display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;align-items:center;background:#EDEAE2;box-shadow:inset 0 1px 3px rgba(23,23,26,.10);padding:6px 10px"><span style="display:flex;flex-direction:column;gap:1px"><span style="font-family:'IBM Plex Mono',monospace;font-size:12px">localhost:4000</span><span style="font-size:11.5px;color:#4A4A50">This exact host and port</span></span><span style="font-size:12px;color:#4A4A50">Edit</span></div>
+        </div>
+        <span style="font-size:12.5px;font-weight:600">+ Add a site</span>
+      </div>
+      <div style="display:flex;justify-content:space-between;align-items:center;padding:10px 14px 8px"><span style="font-size:12px;font-weight:600">Headers</span><span style="font-size:12px;color:#4A4A50">3 of 4 on</span></div>
+      <div style="display:flex;flex-direction:column;border-top:1px solid #17171A">
+        <div style="display:grid;grid-template-columns:30px 130px minmax(0,1fr);gap:8px;align-items:center;height:36px;padding:0 14px;border-bottom:1px solid #D6D2C7"><span style="width:24px;height:14px;background:#17171A;padding:2px;display:flex;justify-content:flex-end"><span style="width:10px;height:10px;background:#FFFDF8"></span></span><span style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:500">Authorization</span><span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#4A4A50;overflow:hidden;white-space:nowrap;text-overflow:ellipsis">Bearer ••••••••a71c</span></div>
+        <div style="display:grid;grid-template-columns:30px 130px minmax(0,1fr);gap:8px;align-items:center;height:36px;padding:0 14px;border-bottom:1px solid #D6D2C7"><span style="width:24px;height:14px;background:#17171A;padding:2px;display:flex;justify-content:flex-end"><span style="width:10px;height:10px;background:#FFFDF8"></span></span><span style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:500">X-Env</span><span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#4A4A50">staging</span></div>
+        <div style="display:grid;grid-template-columns:30px 130px minmax(0,1fr);gap:8px;align-items:center;height:36px;padding:0 14px;border-bottom:1px solid #D6D2C7;background:#EFECE4"><span style="width:24px;height:14px;background:#17171A;padding:2px;display:flex;justify-content:flex-end"><span style="width:10px;height:10px;background:#FFFDF8"></span></span><span style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:500">Cache-Control</span><div style="height:26px;background:#FFFDF8;border:1px solid #17171A;outline:2px solid #D9481F;outline-offset:1px;display:flex;align-items:center;padding:0 6px;font-family:'IBM Plex Mono',monospace;font-size:12px">no-store<span style="width:1px;height:13px;background:#17171A"></span></div></div>
+        <div style="display:grid;grid-template-columns:30px 130px minmax(0,1fr);gap:8px;align-items:center;height:36px;padding:0 14px;border-bottom:1px solid #D6D2C7;color:#6B6B70"><span style="width:24px;height:14px;background:#EDEAE2;border:1px solid #B5B1A7;padding:1px;display:flex"><span style="width:10px;height:10px;background:#FFFDF8;border:1px solid #17171A"></span></span><span style="font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:500">X-Debug-Mode</span><span style="font-family:'IBM Plex Mono',monospace;font-size:12px">verbose</span></div>
+        <div style="display:flex;align-items:center;height:36px;padding:0 14px;border-bottom:1px solid #D6D2C7;font-size:12.5px;font-weight:600">+ Add header</div>
+      </div>
+      <div style="margin:12px 14px 0;display:flex;gap:8px;font-size:12.5px;line-height:1.4;color:#3A3A40"><span style="width:9px;height:9px;border:1.5px solid #B7791F;box-shadow:inset 0 -3px 0 #B7791F;margin-top:3px;flex:none"></span><span><span style="font-family:'IBM Plex Mono',monospace;font-size:11.5px">Authorization</span> is also set by <b>Beta feature flags</b>. This set wins.</span></div>
+      <div style="margin-top:auto;padding:10px 14px;border-top:1px solid #17171A;display:flex;justify-content:space-between;align-items:center;font-size:12.5px;font-weight:600">
+        <span style="display:flex;gap:16px"><span>Duplicate</span><span>Export</span></span>
+        <span style="color:#B23A14">Delete set</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="display:flex;flex-direction:column;gap:12px">
+    <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#4A4A50">5 — Chrome Web Store tile · 440 × 280</div>
+    <div style="width:440px;height:280px;background:#F8F6F0;box-shadow:0 0 0 1px rgba(0,0,0,.08);display:grid;grid-template-columns:auto minmax(0,1fr);gap:24px;padding:28px">
+      <span style="width:112px;height:112px;background:#17171A;color:#F8F6F0;display:flex;align-items:flex-end;padding:10px 12px;position:relative"><span style="position:absolute;top:0;right:0;width:18px;height:18px;background:#D9481F"></span><span style="font-size:60px;font-weight:300;letter-spacing:-.05em;line-height:.76">02</span></span>
+      <div style="display:flex;flex-direction:column;gap:10px">
+        <span style="font-size:40px;font-weight:800;letter-spacing:-.04em;line-height:.9">Noggin</span>
+        <span style="font-size:17px;line-height:1.35">Set HTTP headers for the site you’re working on.</span>
+        <span style="margin-top:auto;font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#4A4A50;border-top:1px solid #17171A;padding-top:8px">camas 02 · local only</span>
+      </div>
+    </div>
+    <div style="width:440px;font-size:13px;line-height:1.5;color:#4A4A50">Same template for every tool: mark, lockup name, one plain sentence, endorsement line. No screenshots in the tile — those go in the listing.</div>
+  </div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:12px">
+  <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#4A4A50">6 — camas.dev · homepage · 1280</div>
+  <div style="width:1280px;background:#F8F6F0;display:grid;grid-template-columns:minmax(0,1fr) 48px">
+    <div style="display:flex;flex-direction:column">
+      <div style="display:flex;justify-content:space-between;align-items:center;padding:0 48px;height:60px;border-bottom:1px solid #17171A">
+        <span style="display:flex;align-items:flex-start;gap:3px"><span style="font-size:26px;font-weight:800;letter-spacing:-.06em;line-height:.8">camas</span><span style="width:5px;height:5px;background:#D9481F"></span></span>
+        <span style="display:flex;gap:32px;font-size:15px;font-weight:500"><span>Tools</span><span>Notes</span><span>About</span></span>
+      </div>
+      <div style="display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:48px;padding:80px 48px 72px;align-items:end;border-bottom:1px solid #D6D2C7">
+        <div style="display:flex;flex-direction:column;gap:26px">
+          <div style="display:flex;align-items:baseline;gap:20px;flex-wrap:wrap"><span style="font-size:150px;font-weight:800;letter-spacing:-.07em;line-height:.78">camas</span><span style="font-family:'IBM Plex Mono',monospace;font-size:18px;color:#4A4A50">/ˈka·məs/</span><span style="font-size:26px;font-style:italic;color:#4A4A50">n.</span></div>
+          <div style="display:grid;grid-template-columns:40px minmax(0,1fr);gap:10px 0;font-size:28px;line-height:1.3;letter-spacing:-.01em;max-width:820px">
+            <span style="font-weight:700;color:#6B6B70">1.</span><span style="color:#4A4A50"><i>Scottish Gaelic.</i> A bay; a small, sheltered inlet, as in Camas Geall.</span>
+            <span style="font-weight:700">2.</span><span style="font-weight:500">An index of small tools for people who build and look after websites.</span>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:16px;border-top:1px solid #17171A;padding-top:16px">
+          <div style="font-size:17px;line-height:1.5">Three tools so far — one web app and two Chrome extensions. Each does one job and explains what it finds. No accounts, no tracking.</div>
+          <div style="display:flex;gap:10px"><button style="height:42px;padding:0 18px;background:#17171A;color:#F8F6F0;border:1px solid #17171A;box-shadow:0 2px 0 #000;font:600 15px 'Schibsted Grotesk'">Check a link</button><button style="height:42px;padding:0 18px;background:#FFFDF8;color:#17171A;border:1px solid #17171A;box-shadow:0 2px 0 #17171A;font:600 15px 'Schibsted Grotesk'">See the tools</button></div>
+        </div>
+      </div>
+
+      <div style="display:flex;flex-direction:column;padding:56px 48px 80px">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;padding-bottom:12px;border-bottom:1px solid #17171A"><span style="font-size:15px;font-weight:700">The index</span><span style="font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#4A4A50">3 entries · revised October 2026</span></div>
+
+        <div style="display:grid;grid-template-columns:120px minmax(0,1fr) 460px;gap:32px;padding:40px 0;border-bottom:1px solid #D6D2C7">
+          <span style="font-size:80px;font-weight:300;letter-spacing:-.05em;line-height:.78">01</span>
+          <div style="display:flex;flex-direction:column;gap:14px">
+            <span style="font-size:44px;font-weight:800;letter-spacing:-.035em;line-height:1">Shareable</span>
+            <span style="font-size:19px;line-height:1.45">See how a link will look when someone shares it — and what to fix when it won’t look right.</span>
+            <span style="font-size:15px;line-height:1.5;color:#4A4A50"><i>Useful for</i> anyone publishing pages: writers, marketers, SEO and the developers they ask.</span>
+            <span style="display:flex;gap:16px;align-items:center;margin-top:6px"><button style="height:38px;padding:0 16px;background:#FFFDF8;color:#17171A;border:1px solid #17171A;box-shadow:0 2px 0 #17171A;font:600 14px 'Schibsted Grotesk'">Open Shareable</button><span style="font-size:13px;color:#4A4A50">Web app · free</span></span>
+          </div>
+          <div style="border:1px solid #17171A;background:#F8F6F0;display:flex;flex-direction:column">
+            <div style="padding:14px 16px;display:flex;flex-direction:column;gap:6px;border-bottom:1px solid #D6D2C7"><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#4A4A50">fieldnotes.example/posts/caching-headers</span><span style="font-size:22px;font-weight:800;letter-spacing:-.03em">Shares well — except on X.</span></div>
+            <div style="padding:12px 16px;display:flex;flex-direction:column;gap:8px">
+              <span style="display:flex;align-items:center;gap:8px;font-size:14px;font-weight:700"><span style="width:9px;height:9px;background:#D9481F"></span>The X card image is missing</span>
+              <div style="background:#EDEAE2;box-shadow:inset 0 1px 3px rgba(23,23,26,.10);padding:6px 10px;font-family:'IBM Plex Mono',monospace;font-size:11.5px">twitter:image → /img/og-caching.png → 404</div>
+              <span style="display:flex;align-items:center;gap:8px;font-size:14px;color:#3A3A40"><span style="width:9px;font-size:12px;font-weight:700">✓</span>11 other checks are fine</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="display:grid;grid-template-columns:120px minmax(0,1fr) 460px;gap:32px;padding:40px 0;border-bottom:1px solid #D6D2C7">
+          <span style="font-size:80px;font-weight:300;letter-spacing:-.05em;line-height:.78">02</span>
+          <div style="display:flex;flex-direction:column;gap:14px">
+            <span style="font-size:44px;font-weight:800;letter-spacing:-.035em;line-height:1">Noggin</span>
+            <span style="font-size:19px;line-height:1.45">Add HTTP headers to the site you’re working on. Switch each one on or off in a click.</span>
+            <span style="font-size:15px;line-height:1.5;color:#4A4A50"><i>Useful for</i> quick checks — one site, a few headers, right now.</span>
+            <span style="display:flex;gap:16px;align-items:center;margin-top:6px"><button style="height:38px;padding:0 16px;background:#FFFDF8;color:#17171A;border:1px solid #17171A;box-shadow:0 2px 0 #17171A;font:600 14px 'Schibsted Grotesk'">Add to Chrome</button><span style="font-size:13px;color:#4A4A50">Extension · free · local only</span></span>
+          </div>
+          <div style="border:1px solid #17171A;background:#F8F6F0;display:flex;flex-direction:column">
+            <div style="padding:10px 14px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #D6D2C7"><span style="font-family:'IBM Plex Mono',monospace;font-size:11.5px">localhost:3000</span><span style="display:flex;align-items:center;gap:6px;font-size:12px;font-weight:600">On<span style="width:28px;height:16px;background:#17171A;padding:2px;display:flex;justify-content:flex-end"><span style="width:12px;height:12px;background:#FFFDF8"></span></span></span></div>
+            <div style="display:flex;align-items:center;height:42px;padding:0 14px;border-bottom:1px solid #D6D2C7;gap:10px"><span style="flex:1;font-family:'IBM Plex Mono',monospace;font-size:12.5px"><b style="font-weight:500">X-Debug-Mode</b> <span style="color:#4A4A50">1</span></span><span style="width:28px;height:16px;background:#17171A;padding:2px;display:flex;justify-content:flex-end"><span style="width:12px;height:12px;background:#FFFDF8"></span></span></div>
+            <div style="display:flex;align-items:center;height:42px;padding:0 14px;border-bottom:1px solid #D6D2C7;gap:10px"><span style="flex:1;font-family:'IBM Plex Mono',monospace;font-size:12.5px"><b style="font-weight:500">Accept-Language</b> <span style="color:#4A4A50">fr-CA</span></span><span style="width:28px;height:16px;background:#17171A;padding:2px;display:flex;justify-content:flex-end"><span style="width:12px;height:12px;background:#FFFDF8"></span></span></div>
+            <div style="display:flex;align-items:center;height:42px;padding:0 14px;gap:10px;color:#6B6B70"><span style="flex:1;font-family:'IBM Plex Mono',monospace;font-size:12.5px"><b style="font-weight:500">Cache-Control</b> no-cache</span><span style="width:28px;height:16px;background:#EDEAE2;border:1px solid #B5B1A7;padding:1px;display:flex"><span style="width:12px;height:12px;background:#FFFDF8;border:1px solid #17171A;box-shadow:0 1px 0 #17171A"></span></span></div>
+          </div>
+        </div>
+
+        <div style="display:grid;grid-template-columns:120px minmax(0,1fr) 460px;gap:32px;padding:40px 0;border-bottom:1px solid #D6D2C7">
+          <span style="font-size:80px;font-weight:300;letter-spacing:-.05em;line-height:.78">03</span>
+          <div style="display:flex;flex-direction:column;gap:14px">
+            <span style="font-size:44px;font-weight:800;letter-spacing:-.035em;line-height:1">Bonce</span>
+            <span style="font-size:19px;line-height:1.45">Keep named sets of headers and let each one apply itself to the sites it belongs to.</span>
+            <span style="font-size:15px;line-height:1.5;color:#4A4A50"><i>Useful for</i> ongoing work across many sites and environments.</span>
+            <span style="display:flex;gap:16px;align-items:center;margin-top:6px"><button style="height:38px;padding:0 16px;background:#FFFDF8;color:#17171A;border:1px solid #17171A;box-shadow:0 2px 0 #17171A;font:600 14px 'Schibsted Grotesk'">Add to Chrome</button><span style="font-size:13px;color:#4A4A50">Extension · free · local only</span></span>
+          </div>
+          <div style="border:1px solid #17171A;background:#F8F6F0;display:flex;flex-direction:column">
+            <div style="padding:10px 14px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #D6D2C7"><span style="font-family:'IBM Plex Mono',monospace;font-size:11.5px">app.staging.example.dev</span><span style="font-size:12px;font-weight:600">2 sets apply</span></div>
+            <div style="display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;padding:9px 14px;border-bottom:1px solid #D6D2C7;background:#EFECE4;box-shadow:inset 3px 0 0 #17171A"><span style="display:flex;flex-direction:column;gap:2px"><b style="font-size:14px">Staging auth</b><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#4A4A50">*.staging.example.dev</span></span><span style="font-size:11px;font-weight:600;padding:1px 6px;background:#17171A;color:#F8F6F0">Applies here</span></div>
+            <div style="display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;padding:9px 14px;border-bottom:1px solid #D6D2C7;background:#EFECE4;box-shadow:inset 3px 0 0 #17171A"><span style="display:flex;flex-direction:column;gap:2px"><b style="font-size:14px">Beta feature flags</b><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#4A4A50">*.example.dev</span></span><span style="font-size:11px;font-weight:600;padding:1px 6px;background:#17171A;color:#F8F6F0">Applies here</span></div>
+            <div style="display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;padding:9px 14px"><span style="display:flex;flex-direction:column;gap:2px"><b style="font-size:14px">French locale</b><span style="font-family:'IBM Plex Mono',monospace;font-size:11px;color:#4A4A50">*.example.fr</span></span><span style="font-size:12px;color:#4A4A50">Not here</span></div>
+          </div>
+        </div>
+
+        <div style="display:grid;grid-template-columns:120px minmax(0,1fr);gap:32px;padding:28px 0;border-bottom:1px dashed #6B6B70;color:#4A4A50;align-items:baseline">
+          <span style="font-size:48px;font-weight:300;letter-spacing:-.05em;line-height:.78;color:#6B6B70">04</span>
+          <span style="font-size:18px"><i>The next entry is in preparation.</i> New tools are announced in the <a>notes</a>.</span>
+        </div>
+      </div>
+
+      <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;padding:0 48px 72px">
+        <div style="display:flex;flex-direction:column;gap:8px;border-top:1px solid #17171A;padding-top:16px"><b style="font-size:17px">One job each</b><span style="font-size:15px;line-height:1.5;color:#3A3A40">Small enough to understand in a minute. No dashboards, no suites.</span></div>
+        <div style="display:flex;flex-direction:column;gap:8px;border-top:1px solid #17171A;padding-top:16px"><b style="font-size:17px">Explained, then shown</b><span style="font-size:15px;line-height:1.5;color:#3A3A40">Every finding says what it means in plain English before it shows the technical evidence.</span></div>
+        <div style="display:flex;flex-direction:column;gap:8px;border-top:1px solid #17171A;padding-top:16px"><b style="font-size:17px">Local by default</b><span style="font-size:15px;line-height:1.5;color:#3A3A40">Extensions keep everything on your device and ask only for the permissions they need.</span></div>
+      </div>
+
+      <div style="display:grid;grid-template-columns:120px minmax(0,1fr) minmax(0,1fr);gap:32px;padding:56px 48px;background:#EFECE4;border-top:1px solid #D6D2C7">
+        <div style="width:120px;aspect-ratio:4/5;background:repeating-linear-gradient(135deg,#E2DED4 0 6px,#E9E5DC 6px 12px);display:grid;place-items:center;font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:#4A4A50">portrait</div>
+        <div style="display:flex;flex-direction:column;gap:12px"><span style="font-size:15px;font-weight:700">Who keeps the index</span><span style="font-size:20px;line-height:1.5;text-wrap:pretty">Camas is made by one developer who got tired of opening four tabs to answer one question about a page. The tools are free, and they’ll stay small.</span><a style="font-size:15px;font-weight:600">About Camas</a></div>
+        <div style="display:flex;flex-direction:column;border-top:1px solid #17171A">
+          <div style="display:flex;justify-content:space-between;padding:10px 0 8px"><span style="font-size:15px;font-weight:700">Notes</span><a style="font-size:14px;font-weight:600">All notes</a></div>
+          <div style="display:grid;grid-template-columns:96px 1fr;gap:12px;padding:10px 0;border-top:1px solid #D6D2C7;font-size:15px"><span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#4A4A50;padding-top:2px">2026-09-18</span><span>Why Noggin never asks for “all sites” permission</span></div>
+          <div style="display:grid;grid-template-columns:96px 1fr;gap:12px;padding:10px 0;border-top:1px solid #D6D2C7;font-size:15px"><span style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#4A4A50;padding-top:2px">2026-08-02</span><span>What Slack actually reads from your page</span></div>
+        </div>
+      </div>
+
+      <div style="display:flex;justify-content:space-between;padding:18px 48px;border-top:1px solid #17171A;font-size:13px;color:#4A4A50"><span style="display:flex;align-items:flex-start;gap:2px;color:#17171A"><span style="font-size:16px;font-weight:800;letter-spacing:-.05em;line-height:.8">camas</span><span style="width:4px;height:4px;background:#D9481F"></span></span><span>Privacy · Colophon · RSS</span></div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:2px;padding-top:120px;border-left:1px solid #D6D2C7">
+      <span style="height:72px;background:#EFECE4;border:1px solid #D6D2C7;border-right:0;font-family:'IBM Plex Mono',monospace;font-size:11px;display:flex;align-items:flex-start;justify-content:center;padding-top:10px">01</span>
+      <span style="height:72px;background:#EFECE4;border:1px solid #D6D2C7;border-right:0;font-family:'IBM Plex Mono',monospace;font-size:11px;display:flex;align-items:flex-start;justify-content:center;padding-top:10px">02</span>
+      <span style="height:72px;background:#EFECE4;border:1px solid #D6D2C7;border-right:0;font-family:'IBM Plex Mono',monospace;font-size:11px;display:flex;align-items:flex-start;justify-content:center;padding-top:10px">03</span>
+      <span style="height:72px;border:1px dashed #6B6B70;border-right:0;font-family:'IBM Plex Mono',monospace;font-size:11px;color:#4A4A50;display:flex;align-items:flex-start;justify-content:center;padding-top:10px">04</span>
+    </div>
+  </div>
+</div>
+
+<div style="display:flex;flex-direction:column;gap:12px">
+  <div style="font-family:'IBM Plex Mono',monospace;font-size:12px;color:#4A4A50">7 — Shareable · result · 1280</div>
+  <div style="width:1280px;background:#F8F6F0;display:flex;flex-direction:column">
+    <div style="display:flex;justify-content:space-between;align-items:center;padding:0 40px;height:56px;border-bottom:1px solid #17171A">
+      <div style="display:flex;align-items:center;gap:10px"><span style="width:26px;height:26px;background:#17171A;color:#F8F6F0;display:flex;align-items:flex-end;padding:2px 3px;position:relative"><span style="position:absolute;top:0;right:0;width:5px;height:5px;background:#D9481F"></span><span style="font-size:14px;font-weight:500;letter-spacing:-.04em;line-height:.76">01</span></span><span style="font-size:19px;font-weight:800;letter-spacing:-.025em">Shareable</span></div>
+      <div style="display:flex;gap:24px;font-size:14px;font-weight:500"><span>History</span><span>What we check</span></div>
+    </div>
+    <div style="display:flex;gap:10px;padding:28px 40px 0">
+      <div style="flex:1;height:52px;background:#EDEAE2;border:1px solid #B5B1A7;box-shadow:inset 0 1px 3px rgba(23,23,26,.10);display:flex;align-items:center;padding:0 16px;font-family:'IBM Plex Mono',monospace;font-size:15px"><span style="color:#6B6B70">https://</span>fieldnotes.example/posts/caching-headers</div>
+      <button style="height:52px;padding:0 26px;background:#17171A;color:#F8F6F0;border:1px solid #17171A;box-shadow:0 2px 0 #000;font:600 16px 'Schibsted Grotesk'">Check again</button>
+    </div>
+    <div style="display:grid;grid-template-columns:minmax(0,1fr) auto;gap:40px;padding:40px 40px 32px;border-bottom:1px solid #17171A;align-items:end">
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div style="font-size:52px;font-weight:800;letter-spacing:-.04em;line-height:1">Shares well — except on X.</div>
+        <div style="font-size:18px;line-height:1.5;color:#3A3A40;max-width:660px">Previews on Slack, LinkedIn and iMessage look right. On X the card will have no picture, and every platform will cut the description short.</div>
+      </div>
+      <div style="display:flex;gap:24px;font-size:15px;padding-bottom:4px">
+        <span style="display:flex;align-items:center;gap:8px;font-weight:700;color:#B23A14"><span style="width:10px;height:10px;background:#D9481F"></span>2 problems</span>
+        <span style="display:flex;align-items:center;gap:8px;font-weight:700;color:#8A5A12"><span style="width:10px;height:10px;border:1.5px solid #B7791F;box-shadow:inset 0 -4px 0 #B7791F"></span>1 to watch</span>
+        <span style="display:flex;align-items:center;gap:8px;font-weight:600">✓ 11 fine</span>
+        <span style="color:#4A4A50;font-size:13px;align-self:center">checked 12 s ago</span>
+      </div>
+    </div>
+    <div style="display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:48px;padding:0 40px 56px">
+      <div style="display:flex;flex-direction:column">
+        <div style="display:flex;flex-direction:column;gap:10px;padding:28px 0;border-bottom:1px solid #D6D2C7">
+          <div style="display:flex;align-items:center;justify-content:space-between;gap:16px"><span style="display:flex;align-items:center;gap:10px"><span style="width:11px;height:11px;background:#D9481F"></span><span style="font-size:24px;font-weight:700;letter-spacing:-.02em">The X card image is missing</span></span><span style="font-size:13px;font-weight:600;color:#B23A14">Problem · X only</span></div>
+          <div style="font-size:16px;line-height:1.55;color:#3A3A40;padding-left:21px;max-width:640px">When this link is posted on X, the card will show text only — links with images get noticeably more attention. X asks for its own image, and the address it’s given doesn’t exist.</div>
+          <div style="padding-left:21px;font-size:15px;line-height:1.5"><b>Fix:</b> point it at the same image your other platforms use, or remove the tag so X falls back to it.</div>
+          <div style="margin-left:21px;background:#EDEAE2;box-shadow:inset 0 1px 3px rgba(23,23,26,.10);display:grid;grid-template-columns:110px minmax(0,1fr);font-family:'IBM Plex Mono',monospace;font-size:12.5px;padding:4px 12px">
+            <span style="padding:5px 0;color:#4A4A50">tag</span><span style="padding:5px 0">&lt;meta name="twitter:image"&gt;</span>
+            <span style="padding:5px 0;color:#4A4A50;border-top:1px solid #DCD8CE">value</span><span style="padding:5px 0;border-top:1px solid #DCD8CE">/img/og-caching.png</span>
+            <span style="padding:5px 0;color:#4A4A50;border-top:1px solid #DCD8CE">response</span><span style="padding:5px 0;border-top:1px solid #DCD8CE;color:#B23A14">404 Not Found</span>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:10px;padding:28px 0;border-bottom:1px solid #D6D2C7">
+          <div style="display:flex;align-items:center;justify-content:space-between;gap:16px"><span style="display:flex;align-items:center;gap:10px"><span style="width:11px;height:11px;background:#D9481F"></span><span style="font-size:24px;font-weight:700;letter-spacing:-.02em">The description will be cut off</span></span><span style="font-size:13px;font-weight:600;color:#B23A14">Problem · all platforms</span></div>
+          <div style="font-size:16px;line-height:1.55;color:#3A3A40;padding-left:21px;max-width:640px">Most previews stop after about 160 characters, so readers will see the description end mid-sentence.</div>
+          <div style="padding-left:21px;font-size:15px;line-height:1.5"><b>Fix:</b> put the point of the page in the first sentence.</div>
+          <div style="margin-left:21px;background:#EDEAE2;box-shadow:inset 0 1px 3px rgba(23,23,26,.10);display:grid;grid-template-columns:110px minmax(0,1fr);font-family:'IBM Plex Mono',monospace;font-size:12.5px;padding:4px 12px">
+            <span style="padding:5px 0;color:#4A4A50">tag</span><span style="padding:5px 0">&lt;meta property="og:description"&gt;</span>
+            <span style="padding:5px 0;color:#4A4A50;border-top:1px solid #DCD8CE">length</span><span style="padding:5px 0;border-top:1px solid #DCD8CE">212 characters · shown ≈ 160</span>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:8px;padding:24px 0;border-bottom:1px solid #17171A">
+          <div style="display:flex;align-items:center;justify-content:space-between;gap:16px"><span style="display:flex;align-items:center;gap:10px"><span style="width:11px;height:11px;border:1.5px solid #B7791F;box-shadow:inset 0 -4px 0 #B7791F"></span><span style="font-size:20px;font-weight:700;letter-spacing:-.02em">The preview image is heavy</span></span><span style="font-size:13px;font-weight:600;color:#8A5A12">Watch</span></div>
+          <div style="font-size:15px;line-height:1.55;color:#3A3A40;padding-left:21px">It works today, but some platforms give up on images over 1 MB and show no picture.</div>
+          <div style="margin-left:21px;background:#EDEAE2;box-shadow:inset 0 1px 3px rgba(23,23,26,.10);padding:7px 12px;font-family:'IBM Plex Mono',monospace;font-size:12.5px">og:image · 1200 × 630 · 1.8 MB</div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:12px;padding-top:20px">
+          <div style="display:flex;justify-content:space-between;align-items:center"><span style="font-size:17px;font-weight:700">✓ 11 checks are fine</span><button style="height:32px;padding:0 12px;background:#FFFDF8;color:#17171A;border:1px solid #17171A;box-shadow:0 2px 0 #17171A;font:600 13px 'Schibsted Grotesk'">Show details</button></div>
+          <div style="font-size:15px;line-height:1.7;color:#3A3A40">Title length · Page address is canonical · Loads securely · Image shape · Favicon · Language · Site name · Page type · Robots allow previews · No redirects · Fast enough for crawlers</div>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:20px;padding-top:28px">
+        <div style="display:flex;flex-direction:column;gap:12px">
+          <div style="display:flex;justify-content:space-between;align-items:baseline"><span style="font-size:17px;font-weight:700">How it will look</span><span style="font-size:13px;font-style:italic;color:#4A4A50">approximate</span></div>
+          <div style="display:flex;padding:3px;gap:3px;background:#EDEAE2;box-shadow:inset 0 1px 3px rgba(23,23,26,.10);font-size:13px;font-weight:600"><span style="flex:1;text-align:center;padding:6px 0;border:1px solid transparent;display:flex;gap:6px;justify-content:center;align-items:center"><span style="width:7px;height:7px;background:#D9481F"></span>X</span><span style="flex:1;text-align:center;padding:6px 0;background:#FFFDF8;border:1px solid #17171A;box-shadow:0 2px 0 #17171A">Slack</span><span style="flex:1;text-align:center;padding:6px 0;border:1px solid transparent">LinkedIn</span><span style="flex:1;text-align:center;padding:6px 0;border:1px solid transparent">iMessage</span></div>
+          <div style="background:#fff;padding:14px;display:flex;flex-direction:column;gap:8px;border-left:4px solid #B5B1A7;box-shadow:0 0 0 1px #E2DED4">
+            <div style="font-size:13px;font-weight:700">fieldnotes.example</div>
+            <div style="font-size:15px;font-weight:700;color:#1D4FB8">Caching headers, explained slowly</div>
+            <div style="font-size:14px;line-height:1.4;color:#3A3A40">Cache-Control, ETag and Vary are easier than they look. A practical walk-through of what each header actually does…</div>
+            <div style="aspect-ratio:1200/630;background:repeating-linear-gradient(135deg,#E6E2D8 0 6px,#EEEBE3 6px 12px);display:grid;place-items:center;font-family:'IBM Plex Mono',monospace;font-size:11px;color:#4A4A50">og:image preview</div>
+          </div>
+          <div style="font-size:13px;color:#4A4A50">Drawn from the tags on the page, not a live post.</div>
+        </div>
+        <div style="display:flex;flex-direction:column;border-top:1px solid #17171A">
+          <span style="font-size:15px;font-weight:700;padding:10px 0 8px">What the page says about itself</span>
+          <div style="background:#EDEAE2;box-shadow:inset 0 1px 3px rgba(23,23,26,.10);display:grid;grid-template-columns:96px minmax(0,1fr);font-family:'IBM Plex Mono',monospace;font-size:12px;padding:4px 12px">
+            <span style="padding:5px 0;color:#4A4A50">title</span><span style="padding:5px 0">Caching headers, explained slowly</span>
+            <span style="padding:5px 0;color:#4A4A50;border-top:1px solid #DCD8CE">type</span><span style="padding:5px 0;border-top:1px solid #DCD8CE">article</span>
+            <span style="padding:5px 0;color:#4A4A50;border-top:1px solid #DCD8CE">canonical</span><span style="padding:5px 0;border-top:1px solid #DCD8CE">fieldnotes.example/posts/caching-headers</span>
+            <span style="padding:5px 0;color:#4A4A50;border-top:1px solid #DCD8CE">image</span><span style="padding:5px 0;border-top:1px solid #DCD8CE">/img/og-caching-1200.jpg</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="display:flex;justify-content:space-between;padding:14px 40px;border-top:1px solid #17171A;font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:#4A4A50"><span>Shareable — camas 01</span><span>privacy · what we check</span></div>
+  </div>
+</div>
+
+</div>
+</x-dc>
+</body>
+</html>
